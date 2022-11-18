@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+.ex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 620px;
+  height: 620px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.ml {
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.child {
+  background-color: rgb(60, 122, 175);
+  width: 140px;
+  height: 140px;
+}
+.bb {
+  background-color: purple;
+}
